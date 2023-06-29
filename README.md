@@ -13,7 +13,7 @@ After installation, you can get started!
 Anaconda
 Prophet can also be installed through conda-forge.
 
-```
+```python
 conda install -c conda-forge prophet
 ```
 
@@ -21,7 +21,7 @@ conda install -c conda-forge prophet
 
 To get the latest code changes as they are merged, you can clone this repo and build from source manually. This is not guaranteed to be stable.
 
-```
+```python
 git clone https://github.com/facebook/prophet.git
 cd prophet/python
 python -m pip install -e .
@@ -29,7 +29,7 @@ python -m pip install -e .
 
 By default, Prophet will use a fixed version of ```cmdstan``` (downloading and installing it if necessary) to compile the model executables. If this is undesired and you would like to use your own existing ```cmdstan``` installation, you can set the environment variable ```PROPHET_REPACKAGE_CMDSTAN``` to ```False```:
 
-```
+```python
 export PROPHET_REPACKAGE_CMDSTAN=False; python -m pip install -e .
 ```
 
