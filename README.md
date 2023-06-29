@@ -10,7 +10,7 @@ python -m pip install prophet
 
 After installation, you can get started!
 
-Anaconda
+## Anaconda
 Prophet can also be installed through conda-forge.
 
 ```python
@@ -33,5 +33,5 @@ By default, Prophet will use a fixed version of ```cmdstan``` (downloading and i
 export PROPHET_REPACKAGE_CMDSTAN=False; python -m pip install -e .
 ```
 
-Windows
+## Windows
 Using ```cmdstanpy``` with Windows requires a Unix-compatible C compiler such as mingw-gcc. If cmdstanpy is installed first, one can be installed via the ```cmdstanpy.install_cxx_toolchain``` command.
