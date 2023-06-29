@@ -58,3 +58,11 @@ $ pip install yfinance --upgrade --no-cache-dir
 * beautifulsoup4 >= 4.11.1
 * html5lib >= 1.1
 * cryptography >= 3.3.2
+
+## Note
+
+The ```requirements.txt``` file should list all Python libraries that your notebooks depend on, and they will be installed using:
+
+```python
+pip install -r requirements.txt
+```
