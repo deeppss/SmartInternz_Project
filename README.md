@@ -1,7 +1,7 @@
 # **Time Series Analysis For Bitcoin Price Prediction using Prophet**
 
 Prophet is on PyPI, so you can use ```pip``` to install it.
-```
+```python
 python -m pip install prophet
 ```
 * From v0.6 onwards, Python 2 is no longer supported.
