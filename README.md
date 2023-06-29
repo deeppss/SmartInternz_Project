@@ -35,3 +35,26 @@ export PROPHET_REPACKAGE_CMDSTAN=False; python -m pip install -e .
 
 ## Windows
 Using ```cmdstanpy``` with Windows requires a Unix-compatible C compiler such as mingw-gcc. If cmdstanpy is installed first, one can be installed via the ```cmdstanpy.install_cxx_toolchain``` command.
+
+## Download market data from yfinance
+
+### Installation
+Install yfinance using pip:
+
+```python
+$ pip install yfinance --upgrade --no-cache-dir
+```
+
+### Requirements
+
+* Python >= 2.7, 3.4+
+* Pandas >= 1.3.0
+* Numpy >= 1.16.5
+* requests >= 2.26
+* lxml >= 4.9.1
+* appdirs >= 1.4.4
+* pytz >=2022.5
+* frozendict >= 2.3.4
+* beautifulsoup4 >= 4.11.1
+* html5lib >= 1.1
+* cryptography >= 3.3.2
